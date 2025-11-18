@@ -1,0 +1,161 @@
+# Terraform State Files (CRITICAL - NEVER COMMIT)
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.*.backup
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfplan
+*.tfplan.*
+
+# Environment Variables and Configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# AWS and Cloud Provider Credentials
+.aws/
+aws-exports.js
+amplify-build-config.json
+.amplify/
+
+# API Keys and Secrets
+secrets.json
+config/secrets.yml
+config/local.yml
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+
+# Database Files and Backups
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.backup
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Node.js / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.eslintcache
+.yarn-integrity
+.next/
+.nuxt/
+dist/
+build/
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Test Coverage and Reports
+coverage/
+*.cover
+.hypothesis/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*.orig
+
+# JWT and Token Files
+*.jwt
+*.token
+
+# SSL Certificates
+*.crt
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local Configuration
+local.json
+local.yml
+local.yaml
+config.local.*
+
+# Package Managers
+package-lock.json.backup
+yarn.lock.backup
+
+# Build Artifacts
+*.tar.gz
+*.zip
+*.rar
+
