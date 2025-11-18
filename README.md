@@ -226,3 +226,6 @@ This infrastructure supports:
 - ECR lifecycle policies to manage image storage costs
 - CloudWatch log retention policies
 - Right-sized compute resources
+
+## Read More
+This repository is associated with the following blog https://darryl-ruggles.cloud/dsql-kabob-store
